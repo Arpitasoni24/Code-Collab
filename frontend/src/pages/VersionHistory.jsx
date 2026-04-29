@@ -97,7 +97,7 @@ export default function VersionHistory() {
     if (!newMsg.trim()) return;
     try {
       setCreating(true);
-      const res = await createVersion({ fileId: id, message: newMsg.trim() }, token);
+      // const res = await createVersion({ fileId: id, message: newMsg.trim() }, token);
       const fresh = await getVersions(id, token);
       const data = fresh.data || [];
       setVersions(data);

@@ -5,7 +5,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import FileTree from "../components/FileTree";
 import PresencePanel from "../components/PresencePanel";
 import InviteModal from "../components/InviteModal";
-import ActivityFeed from "../components/ActivityFeed";
+// import ActivityFeed from "../components/ActivityFeed";
 import Heatmap from "../components/Heatmap";
 import RecentFiles from "../components/RecentFiles";
 import UploadPage from "../components/UploadPage";
